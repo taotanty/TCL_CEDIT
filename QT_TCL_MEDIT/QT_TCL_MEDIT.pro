@@ -11,8 +11,20 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    tcl_tv.cpp \
+    tcl_tv.cpp \
+    tcl_atv_tv.cpp \
+    tcl_mtk_dtv_tv.cpp \
+    tcl_mstar_dtv_tv.cpp \
+    tcl_usb.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    tcl_tv.h \
+    tcl_tv.h \
+    tcl_atv_tv.h \
+    tcl_mtk_dtv_tv.h \
+    tcl_mstar_dtv_tv.h \
+    tcl_usb.h
 
 FORMS    += mainwindow.ui
